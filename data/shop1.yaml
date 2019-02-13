@@ -1,0 +1,14 @@
+shop: Связной
+categories:
+  - id: 12
+    name: Смартфоны
+  - id: 15
+    name: Аксессуары
+
+goods:
+  - id: 114
+    category: 12
+    name: iPhone 4
+    price: 50000
+    price1: 55000
+    quantity: 14
