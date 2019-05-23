@@ -20,19 +20,26 @@
     4. ProductInfo
         - product
         - shop
+        - name
         - quantity
-        - price1
-        - price2
-    5. Order
+        - price
+        - price_rrc
+    5. Parameter
+        - name
+    6. ProductParameter
+        - product_info
+        - parameter
+        - value
+    7. Order
         - user
         - dt
         - status
-    6. OrderItem
+    8. OrderItem
         - order
         - product
         - shop
         - quantity
-    7. Contact
+    9. Contact
         - type
         - user
         - value
