@@ -5,9 +5,10 @@
 1. Создано Celery-приложение c методами:
    - send_email
    - do_import
-2. Создан view для запуска Celery-задачи do_import из админки
+2. Создан view для запуска Celery-задачи do_import из админки.
 
 ## Реальный пример кода на Python:
+
 ```python
 
 def password_reset_token_created(sender, instance, reset_password_token, **kwargs):
